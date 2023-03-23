@@ -94,10 +94,10 @@
             </objects>
             <point key="canvasLocation" x="-384" y="-59"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="Qig-pi-yEY">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="h3T-XO-WlM" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="h3T-XO-WlM" customClass="ResultViewController" customModule="NamesCompApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pbo-1n-pFS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
