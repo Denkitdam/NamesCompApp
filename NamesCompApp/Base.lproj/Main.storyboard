@@ -71,6 +71,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="h3T-XO-WlM" kind="show" id="hDB-Ha-X9h"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -94,7 +97,7 @@
         <!--View Controller-->
         <scene sceneID="Qig-pi-yEY">
             <objects>
-                <viewController id="h3T-XO-WlM" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="h3T-XO-WlM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pbo-1n-pFS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -154,10 +157,11 @@
                             <constraint firstItem="8g3-QK-WsW" firstAttribute="top" secondItem="SNQ-Ix-vII" secondAttribute="bottom" constant="30" id="wmH-LL-FLK"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="VIH-Ix-oz1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xpY-8g-9u0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="286.25954198473283" y="-79.577464788732399"/>
+            <point key="canvasLocation" x="297" y="-60"/>
         </scene>
     </scenes>
     <resources>
